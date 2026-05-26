@@ -1,0 +1,7 @@
+{
+  "name": "Pantry Chef",
+  "description": "An AI-powered recipe randomizer. Input your available ingredients and dietary preferences, and Pantry Chef will whip up a delicious recipe for you.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

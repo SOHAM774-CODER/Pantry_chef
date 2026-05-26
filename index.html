@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pantry Chef</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: 'hsl(210, 100%, 60%)',
+                hover: 'hsl(210, 100%, 55%)',
+              },
+              'light-bg': 'hsl(210, 60%, 97%)',
+              'dark-bg': 'hsl(215, 30%, 12%)',
+              'light-card': 'hsl(0 0% 100%)',
+              'dark-card': 'hsl(215, 30%, 18%)',
+              'light-text': 'hsl(222, 22%, 22%)',
+              'dark-text': 'hsl(210 40% 98%)',
+              'light-subtle-text': 'hsl(220, 15%, 55%)',
+              'dark-subtle-text': 'hsl(215 14% 64%)',
+              'light-border': 'hsl(210, 30%, 94%)',
+              'dark-border': 'hsl(215, 20%, 30%)',
+            }
+          }
+        }
+      }
+    </script>
+
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
